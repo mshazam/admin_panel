@@ -1,0 +1,95 @@
+a {
+  color: #e02a13;
+}
+
+body {
+    font-family: 'Source Sans Pro', helvetica, arial, sans-serif;
+    background: url(../../images/background.jpg) no-repeat 50% 0;
+    background-size: 100%;
+    color: #667;
+}
+
+.logoWrp {
+  background: #dc2a1e;
+}
+
+.btn-primary {
+  background:#00853e;
+  border:#005f2c;
+}
+
+li.logout {
+  position: absolute;
+  right: 0;
+}
+
+.logoWrp {
+  padding:18px 30px;
+  font-size: 28px;
+}
+
+.navbar-default .navbar-nav>.active>a {
+  background: #e02a13;
+  color:#fff;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+   background-color: #f7f7f7;
+}
+.table-hover>tbody>tr:hover {
+  background: rgba(220, 42, 30, .9);
+  color:#fff;
+}
+.table-hover>tbody>tr:hover a {
+  color: #fff;
+}
+    .table-responsive td:first-child, .table-responsive th:first-child {
+        width: 107px;
+    }
+.checkbox {
+  margin-left: 22px;
+}
+label {
+  color: #555;
+}
+legend {
+  font-size: 28px;
+  border: 0;
+  display: inline-block;
+  padding: 0 10px;
+  width: auto
+}
+fieldset {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+}
+.inline.alert {
+  padding: 6px 16px;
+}
+.saveBlock {
+  position: sticky;
+  bottom: 0;
+  padding-top: 10px;
+  background: rgba(255,255,255,.9);
+}
+.has-error .form-control {
+  background: #e02a1321
+}
+.form-group {
+  margin-bottom: 0;
+  padding: 5px 15px 15px 15px;
+}
+.form-group.has-error {
+  background: #e02a1321
+}
+.form-control, select {
+  border-radius: 3px;
+}
+.subheader{
+    padding:15px;
+}
+  .subheader .btn {
+    margin-top:20px;
+  }
